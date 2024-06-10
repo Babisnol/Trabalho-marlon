@@ -1,31 +1,113 @@
-body {
+input, label {
+    display: block;
+    outline: none;
+    width: 100%;
+  }
+  
+  a {
+    color: #8c1097;
+  }
+  
+  body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: rgb(131, 76, 182);
+
+
+
+  }
+  
+.dark-mode {
+    background-color: #252424;
+    color: #931dca;
 }
-.container {
+.dark-mode button {
+    background-color: #070707;
+    color: #7b15be;
+
+}
+
+  
+
+  .card {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-h2 {
+  }
+
+
+  #main-container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 25px;
+  }
+  
+  #main-container h1 {
     text-align: center;
-}
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .full-box {
+    background-color: white;
+    color: rgb(29, 28, 29);
+    border: none;
+    flex: 1 1 100%;
+    position: relative;
+  }
+  
+  .half-box {
+    flex: 1 1 45%;
+    position: relative;
+  }
+  
+  .spacing {
+    margin-right: 2.5%;
+  }
+  
+  label {
+    font-weight: bold;
+    font-size: .8rem;
+  }
+  
+  input {
+    border-bottom: 2px solid #323232;
     padding: 10px;
-    margin: 5px 0;
-    border: 1px solid #ccc;
+    font-size: .9rem;
+    margin-bottom: 40px;
+  }
+  
+  input:focus {
+    border-color: #E60084;
+  }
+  
+  input[type="submit"] {
+    background-color: plum;
+    color: white;
+    border: none;
     border-radius: 5px;
-    box-sizing: border-box;
+    padding: 15px 20px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #7c2070;
 }
-input[type="submit"] {
+  
+button {
     background-color: plum;
     color: white;
     border: none;
@@ -33,6 +115,28 @@ input[type="submit"] {
     padding: 15px 20px;
     cursor: pointer;
 }
-input[type="submit"]:hover {
+button:hover {
+
     background-color: #7c2070;
-}
+   }
+
+
+  #agreement {
+    margin-right: 5px;
+  }
+  
+  #agreement, #agreement-label {
+    display: inline-block;
+    width: auto;
+  }
+  
+  .error-validation {
+    color: #ff1a1a;
+    position: absolute;
+    top: 57px;
+    font-size: 12px;
+  }
+  
+  .template {
+    display: none;
+  }
