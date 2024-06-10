@@ -1,9 +1,72 @@
 body {
+   
+   
+    font-size: 15pt;
     font-family: Arial, sans-serif;
     background-color: rgb(171, 138, 202);
     margin: 0;
     padding: 0;
+    
+
+  transition: background-color 0.5s ease;
 }
+
+*.bts{
+display:flex;
+justify-content: center;
+
+}
+
+
+
+
+.dark-mode button {
+    background-color: #1b1b1b;
+    color: #9a33d6;
+}
+
+.dark-mode {
+    background-color: #202020;
+    color: #9e34db;
+        
+}
+
+
+
+
+
+button {
+    background-color: plum;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+
+
+}
+button:hover {
+
+ background-color: #7c2070;
+}
+
+p, h1{
+   margin: 10px; 
+}
+
+
+
+
+.page {
+   
+    transition: transform 0.5s ease;
+}
+
+.page:not(:first-child) {
+    transform: translateX(100%);
+}
+
+
 
 
 
@@ -36,7 +99,10 @@ body {
     margin-top: 0;
     color: #333;
 }
-.profile-info p {
+.info p {
     color: #666;
     margin-bottom: 20px;
+
 }
+
+
