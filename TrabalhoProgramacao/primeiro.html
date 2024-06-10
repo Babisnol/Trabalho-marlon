@@ -9,17 +9,37 @@
     </head>       
 
 <body>
-    
-<a href="segundo.html">Segunda Página</a>
+   
+<div class="container">
+    <div class="page" id="page1">
+        <div class="card">
+            <h1>Página *1*</h1>
+            </div>
+            <button onclick="nextPage()"><a href="segundo.html">Segunda Página</a></button>
+    </div>
 
-<script  src="scripts/script.js"></script>
+<script  src="script.js"></script>
+
+
+<button onclick="toggleDarkMode()">DarkMode</button>
+
+
 
     <div class="container">
         <div class="profile-image">
             <img src="https://i.pinimg.com/474x/d8/06/80/d8068010d45adde6b049aaf60b883555.jpg">
         </div>
         <div class="profile-info">
+        
             <h1>Bárbara Menezes Nolé</h1>
+          <div class="wrapper">
+            <div class="bts">
+            <button onclick="fontSize('increase')">Aumentar Fonte</button>
+
+            <button onclick="fontSize('decrease')">Diminuir Fonte</button>
+          </div>
+          </div>
+        <div class="info">
             <p>Tenho 19 anos, sou estudante de TI na área de ciência da computação e atualmente estou no período 3.</p>
            <p>Sobre mim: tenho um pouco de experiência com códigos(html, javascript, css, python e MySql), sei um pouco de cada coisa,
             eu não possuo experiência profissional mas estou buscando propostas.
@@ -28,7 +48,7 @@
            </p>
         <p>O que é esse site:  Esse site é um projeto de faculdade no qual estou trabalhando, é um teste. No fim, se alguém quiser dar o feedback agradeceria muito </p>
            <p>Redes Sociais:</p>
-        
+        </div>
             <a href="https://www.facebook.com/profile.php?id=100008449031141" target="_blank">Facebook</a> |
            <a href="https://www.instagram.com/nolebarbara/" target="_blank">Instagram</a>
            <footer>
