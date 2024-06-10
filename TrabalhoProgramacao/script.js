@@ -3,7 +3,7 @@ function toggleDarkMode() {
     var body = document.body;
     body.classList.toggle("dark-mode");
 }
-
+//coloca o a mudança de fonte//
 function fontSize(type){
 var ids =["#p #h1 #h2"]; 
 ids.forEach(id=>{
@@ -19,6 +19,7 @@ ids.forEach(id=>{
     }
 })
 }
+//validação//
 class Validator {
 
     constructor() {
@@ -97,7 +98,7 @@ class Validator {
       }
   
     }
-  
+  //reconhecer apenas letras//
    
     onlyletters(input) {
   
@@ -112,7 +113,7 @@ class Validator {
       }
   
     }
-  
+  //validar o email//
    
     emailvalidate(input) {
       let re = /\S+@\S+\.\S+/;
@@ -127,7 +128,7 @@ class Validator {
   
     }
   
-    
+    //coloca o que o campo precisa ser igual ao..//
     equal(input, inputName) {
   
       let inputToCompare = document.getElementsByName(inputName)[0];
@@ -138,7 +139,7 @@ class Validator {
         this.printMessage(input, errorMessage);
       }
     }
-    
+    //coloca que é obrigatório//
     
     required(input) {
   
@@ -151,7 +152,7 @@ class Validator {
       }
   
     }
-  
+  //valida a senha//
    
     passwordvalidate(input) {
   
@@ -176,7 +177,7 @@ class Validator {
       }
   
     }
-  
+  //coloca mensagem de erro//
    
     printMessage(input, msg) {
     
@@ -198,7 +199,7 @@ class Validator {
   
     }
   
-    
+    //limpa as validações//
     cleanValidations(validations) {
       validations.forEach(el => el.remove());
     }
@@ -217,13 +218,5 @@ class Validator {
     validator.validate(form);
   });
 
-
-function aumentarFonte() {
-    var elemento = document.getElementById('info');
-    var estilo = window.getComputedStyle(elemento, null).getPropertyValue('font-size');
-    var tamanho = parseFloat(estilo);
-    elemento.style.fontSize = (tamanho + 4) + 'px';
-    
-}
 
 
