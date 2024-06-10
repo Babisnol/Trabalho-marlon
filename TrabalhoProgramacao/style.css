@@ -1,3 +1,5 @@
+/*Estiliza o body*/
+
 body {
    
    
@@ -18,7 +20,7 @@ justify-content: center;
 }
 
 
-
+/*Aqui vamos ter o botão darkmode*/
 
 .dark-mode button {
     background-color: #1b1b1b;
@@ -32,7 +34,7 @@ justify-content: center;
 }
 
 
-
+/*Aqui vamos ter os botôes*/
 
 
 button {
@@ -45,6 +47,8 @@ button {
 
 
 }
+/*Faz aparecer uma cor com o cursor*/
+
 button:hover {
 
  background-color: #7c2070;
@@ -68,7 +72,7 @@ p, h1{
 
 
 
-
+/*Aqui vamos ter os container e a estilização das imagens*/
 
 .container {
     max-width: 800px;
@@ -104,5 +108,6 @@ p, h1{
     margin-bottom: 20px;
 
 }
+
 
 
