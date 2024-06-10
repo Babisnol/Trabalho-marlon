@@ -1,3 +1,6 @@
+
+
+
 input, label {
     display: block;
     outline: none;
@@ -13,6 +16,8 @@ input, label {
     margin: 0;
     padding: 0;
     background-color: rgb(131, 76, 182);
+
+
 
 
 
@@ -38,7 +43,7 @@ input, label {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
-
+/*Aqui vai modificar a questão do cadastro e do feedback*/
 
   #main-container {
     width: 500px;
@@ -55,12 +60,15 @@ input, label {
     font-size: 1.6rem;
   }
   
+
   form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   
+
+
   .full-box {
     background-color: white;
     color: rgb(29, 28, 29);
@@ -83,6 +91,8 @@ input, label {
     font-size: .8rem;
   }
   
+/*Modificando os inputs*/
+
   input {
     border-bottom: 2px solid #323232;
     padding: 10px;
@@ -119,6 +129,8 @@ button:hover {
 
     background-color: #7c2070;
    }
+
+/*modifica nossa aba de termos*/
 
 
   #agreement {
